@@ -1,0 +1,93 @@
+.Bar1{
+  border-style: solid;
+  margin-bottom: 0.5cm;
+}
+.Bar2{
+  border-style: solid;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+.chart{
+  width: 720px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.refer{
+  border-style:dashed;
+  display: flex;
+  width: max-content;
+  height: max-content;
+  align-content: left;
+  text-decoration: black;
+  padding: 0.2rem;
+  margin: 0.2cm;
+}
+.choices{
+  margin: 0.2cm;
+  border-style:dashed;
+  display: flex;
+  grid-column: auto;
+  width: max-content;
+  align-content: left;
+  text-decoration: black;
+  padding: 0.2rem;
+}
+.items{
+  margin: 0.2cm;
+  border-style:dashed;
+  display: flex;
+  grid-column: auto;
+  width: max-content;
+  align-content: left;
+  text-decoration: black;
+  padding: 0.2rem;
+}
+.container{
+  float: left;
+  margin: 0.5cm;
+}
+
+.myChart{
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background-color: rgb(247, 243, 243);
+  height: max-content;
+  width: auto;
+  margin: auto;
+}
